@@ -1,0 +1,18 @@
+Because a self-organizing list is charge of positioning elements, any methods which would
+normally allow user code to insert new elements at specific indices should not be allowed.
+For convenience create a toString method that prints out the elements in the list with the
+access counter inside circle brackets and all inside square brackets (like the above examples).
+Think of any problems that could arise when the list is incorrectly used by other programs,
+handle the appropriate exceptions where needed. Make sure you thoroughly test your code
+is working as expected using simple examples before proceeding.
+
+Create a class called DocumentReader with a simple main method which instantiates a 
+self-organizing list using your implementation above, designed to hold unique strings for word
+
+frequency analysis. The class reads a text file using streams, extracting each word individually.
+It should check to see if that word is not already contained in the self-organizing list, before
+adding it as a new word. Make sure your program recognizes both upper-and-lower case
+versions of the same word. After the document is read, print out the list – it should show the
+number of occurrences for each word with the most accessed words at the front of the list –
+further demonstrate the class showing some of the other list functionality such as removes
+and iteration.
